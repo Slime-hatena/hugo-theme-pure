@@ -5,7 +5,7 @@
         {{- $profile := .Site.Params.profileBar }}
         <div class="profile-block text-center">
           <a id="avatar" href="{{- $profile.follow }}" target="{{ cond (eq $profile.follow "/") "" "_blank" }}">
-            <img class="img-circle img-rotate" src="{{- $profile.avatar | absURL }}" width="200" height="200">
+            <img class="{{- $profile.avatarClass }}" src="{{- $profile.avatar | absURL }}" width="200" height="200">
           </a>
           <h2 id="name" class="hidden-xs hidden-sm">{{- $profile.title }}</h2>
           <h3 id="title" class="hidden-xs hidden-sm hidden-md">{{- $profile.description }}</h3>
