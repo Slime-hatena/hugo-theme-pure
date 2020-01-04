@@ -9430,3 +9430,16 @@ body.okayNav-loaded {
     max-height: 200px;
   }
 }
+
+/* custom */
+
+body{
+  color: #333;
+}
+
+figcaption {
+  font-size: .9em;
+  padding-top: .5em;
+  padding-left: .5em;
+  color: #555;
+}
