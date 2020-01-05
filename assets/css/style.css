@@ -9443,3 +9443,9 @@ figcaption {
   padding-left: .5em;
   color: #555;
 }
+
+.share-component-hatena{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
